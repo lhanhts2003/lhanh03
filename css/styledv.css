@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{font-family: "Roboto", sans-serif; font-size: 16px; color: #555555; margin: 0
+}
+.top_bar{width: 100%; height: 50px; line-height: 50px
+}
+.top_bar a{color: white
+}
+.top_bar a:hover{color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{color: #056CB6
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{background-color: #056CB6; padidng-top: 0; padding-bottom: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{border-bottom: 1px solid  #D8D8D8
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{color: white;transition: all 1s
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{background-color: #FFC113; padding-left:25px
+}
+main{width: 100%; min-height: 600px
+}
+footer{width:100%; min-height: 300px
+}
+.duong{border-bottom: 2px solid rgba(255,193,7,1.00); width: 120px}
+footer .navbar-nav .nav-item .nav-link:hover{color: #FFC113}
+.bottom-bar{width:100%; height: 50px; line-height: 50px; text-align: center; background-color: #FFC113}
+.banner{
+	width: 100%;min-height: 400px;background-image: url("../images/pageheader.png");background-repeat: no-repeat;background-size: cover;background-position: center center; position:relative
+}
+.content{
+	position:absolute; top:15%; left:10%
+}
+#service a{text-decoration:none; color: #777777}
+#service a:hover{color:#F2C94C}
